@@ -1,13 +1,11 @@
 #include <stdio.h>
-//#include "mycode.h"
-extern char * t;
-extern int m;
+#include "mycode.h"
 int main(int argc, const char * argv[]) {
-    printf("insert sort\n");
-//    myInsertSort();
-    printf("character Pailie\n");
+//    printf("insert sort\n");
+    myInsertSort();
+//    printf("character Pailie\n");
 //    characterPailie();
-    printf("%s",t);
-
+    mySelectSort();
+    myMergeSort();
     return 0;
 }
